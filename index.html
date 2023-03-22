@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <meta charset="UTF-8">
+    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
 
     <!-- Начало: Данный блок удалять нельзя -->
@@ -15,18 +18,315 @@
         </a>
         <div>
             <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a
+                    href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
             </p>
             <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
+                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a>
+                пользователь получил оплату за верстку этого макета.
             </p>
         </div>
     </div>
     <!-- Конец -->
 
-    <div class="main">
-        В данном блоке размещается верстка
+    <header class="header">
+        <div class="header__inner">
+            <a class="header__logo" href="#">
+                <img src="./img/logo-splice.png" alt="splice logotype">
+            </a>
+
+            <ul class="nav">
+                <li><a href="#" class="nav-link">Sounds</a></li>
+                <li><a href="#" class="nav-link">Skills</a></li>
+                <li><a href="#" class="nav-link">Plugins</a></li>
+                <li><a href="#" class="nav-link">Studio</a></li>
+                <li><a href="#" class="nav-link">Community</a></li>
+                <li><a href="#" class="nav-link">Blog</a></li>
+                <li><a href="#" class="nav-link">Pricing</a></li>
+            </ul>
+
+            <div class="header-btns">
+                <button type="button" class="button header-btns__btn">Login</button>
+                <button type="button" class="button header-btns__btn header-btns__btn--active">Sign-up</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="hint">
+        <div class="container">
+            <div class="hint__inner">
+                <p class="hint__text">
+                    🤘 Get free Sounds when you start a trial & 4 months off a Sounds+ annual plan.
+                </p>
+                <a class="hint__link" href="#">Click here</a>
+            </div>
+        </div>
     </div>
 
+    <div class="main">
+        <section class="offer">
+            <div class="container">
+                <div class="offer__inner">
+                    <h1 class="offer__title">
+                        Step into the producer`s playground
+                    </h1>
+                    <p class="offer__text">
+                        Explore the world`s best sample library and an unmatched marketplace of plugins and DAWs.
+                    </p>
+                    <button class="button offer__btn">Try free</button>
+                </div>
+            </div>
+            <a class="offer__more" href="#">Learn more</a>
+        </section>
+        <section class="sounds">
+            <div class="container">
+                <div class="sounds__inner">
+                    <div class="sounds-info">
+                        <p class="sounds-info__subtitle">
+                            SOUNDS
+                        </p>
+                        <h3 class="sounds-info__title">
+                            A catalog so deep, it`s dangerous.
+                        </h3>
+                        <p class="sounds-info__text">
+                            Expertly created and curated samples in any style imaginable. Start swimming in sound.
+                        </p>
+                        <button class="button button--accent sounds-info__btn">
+                            Explore Sounds
+                        </button>
+                    </div>
+                    <div class="sounds-img">
+                        <img src="./img/content/sounds-section.png" alt="sounds illustrate">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="connected-experience">
+            <div class="container">
+                <div class="connected-experience__inner">
+                    <div class="connected-experience-img">
+                        <img src="./img/content/connected-experience-section.png"
+                            alt="connected-experience illustrate">
+                    </div>
+                    <div class="connected-experience-info">
+                        <p class="connected-experience-info__subtitle">
+                            Connected Experience
+                        </p>
+                        <h3 class="connected-experience-info__title">
+                            A workflow that actually flows.
+                        </h3>
+                        <p class="connected-experience-info__text">
+                            Preview samples in your track`s key and tempo, drag and drop sounds into your DAW, and
+                            organize your favorite samples, MIDI and presets in one place.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gear">
+            <div class="container">
+                <div class="gear__inner">
+                    <div class="gear-info">
+                        <p class="gear-info__subtitle">
+                            Gear
+                        </p>
+                        <h3 class="gear-info__title">
+                            Build a drool-worthy studio, affordably.
+                        </h3>
+                        <p class="gear-info__text">
+                            The industry`s top software, all in one place, on payment plans built to work for you.
+                        </p>
+                        <button class="button button--accent gear-info__btn">
+                            Explore Gear
+                        </button>
+                    </div>
+                    <div class="gear-img">
+                        <img src="./img/content/gear-section.png" alt="gear section illustrate">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="technology">
+            <div class="container">
+                <div class="technology__inner">
+                    <div class="technology-img">
+                        <img src="./img/content/technology-section.png" alt="technology illustrate">
+                    </div>
+                    <div class="technology-info">
+                        <p class="technology-info__subtitle">
+                            Technology
+                        </p>
+                        <h3 class="technology-info__title">
+                            Crate dig without the dust.
+                        </h3>
+                        <p class="technology-info__text">
+                            Our intelligent search tools help you discover sounds you would normally have to dig to
+                            find. Tech breaks the sweat, not you.
+                        </p>
+                        <button class="button button--accent technology-info__btn">
+                            Discover CoSo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="creators">
+            <div class="container">
+                <h3 class="creators__title">
+                    What creators are saying about Splice
+                </h3>
+                <ul class="creators__list">
+                    <li class="creators-item">
+                        <div class="creators-item__img">
+                            <img src="./img/creators/creator-andrew.png" alt="Andrew Huang">
+                        </div>
+                        <p class="creators-item__text">
+                            I can always find what I`m looking for on Splice, whether it`s the exact sound I want or
+                            just a bit of inspiration.
+                        </p>
+                        <p class="creators-item__name">Andrew Huang</p>
+                    </li>
+                    <li class="creators-item">
+                        <div class="creators-item__img">
+                            <img src="./img/creators/creator-kshmr.png" alt="KSHMR">
+                        </div>
+                        <p class="creators-item__text">
+                            Finally a way to buy plugins that works. By paying a little at a time, producers can get
+                            legit access to the top VSTs.
+                        </p>
+                        <p class="creators-item__name">KSHMR</p>
+                    </li>
+                    <li class="creators-item">
+                        <div class="creators-item__img">
+                            <img src="./img/creators/creator-kesha-lee.png" alt="Kesha Lee">
+                        </div>
+                        <p class="creators-item__text">
+                            It`s been fun to dive into Splice`s creator community and explore tools that support my own
+                            creative process.
+                        </p>
+                        <p class="creators-item__name">Kesha Lee</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="proposal">
+            <div class="container">
+                <div class="proposal__inner">
+                    <h2 class="proposal__title">
+                        Try Splice today
+                    </h2>
+                    <button class="button button--accent proposal__btn">
+                        Start now
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-top__inner">
+                    <div class="footer-top-column__inner">
+                        <div class="footer-top-column">
+                            <h4 class="footer-top-column__title">Skills</h4>
+                            <ul class="footer-top-column__links">
+                                <li class="footer-top-column__link-item"><a href="#">Features</a></li>
+                                <li class="footer-top-column__link-item"><a href="#">Catalog</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-top-column">
+                            <h4 class="footer-top-column__title">Studio</h4>
+                            <ul class="footer-top-column__links">
+                                <li class="footer-top-column__link-item"><a href="#">Features</a></li>
+                                <li class="footer-top-column__link-item"><a href="#">About Splice Studio</a></li>
+                                <li class="footer-top-column__link-item"><a href="#">Managing Your Production
+                                        Library</a></li>
+                                <li class="footer-top-column__link-item"><a href="#">Collaborating with Baewatch</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-top-column">
+                        <h4 class="footer-top-column__title">Community</h4>
+                        <ul class="footer-top-column__links">
+                            <li class="footer-top-column__link-item"><a href="#">Ableton Live Projects</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">FL Studio Projects</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">Logic Pro X Projects</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">Garageband Projects</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">Remix Contests</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">Tiesto's Secrets</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-column">
+                        <h4 class="footer-top-column__title">Sounds</h4>
+                        <ul class="footer-top-column__links">
+                            <li class="footer-top-column__link-item"><a href="#">Features</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">Catalog</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">How Jauz Uses Sounds</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">deadmau5's Chimaera</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">KSHMR Vol. 2</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-column">
+                        <h4 class="footer-top-column__title">Plugins</h4>
+                        <ul class="footer-top-column__links">
+                            <li class="footer-top-column__link-item"><a href="#">Top VSTs</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">Serum</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">Rent to Own</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">Free Plugins</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">Top Manufacturers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-column">
+                        <h4 class="footer-top-column__title">Beatmaker</h4>
+                        <ul class="footer-top-column__links">
+                            <li class="footer-top-column__link-item"><a href="#">Create Your Own Beat</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">Wakapella</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">Just Blaze</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-top-column">
+                        <h4 class="footer-top-column__title">Blog</h4>
+                        <ul class="footer-top-column__links">
+                            <li class="footer-top-column__link-item"><a href="#">Latest Posts</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">Using Soundtoys Decapitator</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">Mastering 101</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">Producing Future Beats</a></li>
+                            <li class="footer-top-column__link-item"><a href="#">Belonging @ Splice</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-bottom__rights">
+                    © 2022 Splice.com All Rights Reserved
+                </p>
+                <ul class="footer-bottom__nav">
+                    <li class="footer-bottom__link-item"><a href="#">Terms of Use</a></li>
+                    <li class="footer-bottom__link-item"><a href="#">Privacy Policy</a></li>
+                    <li class="footer-bottom__link-item"><a href="#">Jobs</a></li>
+                    <li class="footer-bottom__link-item"><a href="#">Contact</a></li>
+                    <li class="footer-bottom__link-item"><a href="#">Help</a></li>
+                </ul>
+                <div class="footer-bottom__social">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1_422)">
+                            <path
+                                d="M15.1159 0.000488281H0.883064C0.395693 0.000488281 0 0.395391 0 0.883552V15.1164C0 15.6045 0.395693 16 0.883064 16H8.54559V9.80402H6.4607V7.38904H8.54559V5.60815C8.54559 3.54196 9.80722 2.41627 11.6508 2.41627C12.5347 2.41627 13.2926 2.48239 13.5136 2.51111V4.67082L12.2349 4.67135C11.2325 4.67135 11.0391 5.14792 11.0391 5.84683V7.38824H13.4306L13.1179 9.80297H11.0388V15.9992H15.1156C15.6035 15.9992 15.9995 15.6032 15.9995 15.1164V0.883025C15.9992 0.395391 15.6038 0.000488281 15.1159 0.000488281Z"
+                                fill="white" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_1_422">
+                                <rect width="16" height="16" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
